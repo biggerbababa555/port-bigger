@@ -13,11 +13,11 @@ import picMobile from "../../assets/mobileapp.png"
 
 
 
-
+    
 
 function MainInterest() {
 
-   
+
 
 
     return (
@@ -25,53 +25,54 @@ function MainInterest() {
 
 
 
-<div className="min-h-screen">
-    <div className="max-w-2xl mx-auto flex flex-col items-center justify-center py-16">
+            <div className="min-h-screen">
+                <div className="max-w-2xl mx-auto flex flex-col items-center justify-center py-16">
 
-        <h1 className="text-4xl font-bold text-primaryAccent mb-4 ">Main Interest</h1>
+                    <h1 className="text-4xl font-bold text-primaryAccent mb-4 ">Main Interest</h1>
 
-        {/* Updated container with flexbox */}
-        <div className="flex flex-row space-x-4 py-10">
+                    {/* Updated container with flexbox */}
+                    <div className="flex flex-row space-x-4 py-10">
 
-            {/* Image 1 with text */}
-            <div className="flex flex-col items-center">
-                <div className="w-1/2  overflow-hidden rounded-md shadow-md mb-4">
-                    <img
-                        src={picFrontend}
-                        alt="Main Interest"
-                        className="w-full h-full object-cover transition-transform transform hover:scale-110"
-                    />
+                        {/* Image 1 with text */}
+                        <div className="flex flex-col items-center">
+                            <div className="w-1/2  overflow-hidden rounded-md shadow-md mb-4">
+                                <img
+                                    src={picFrontend}
+                                    alt="Main Interest"
+                                    className="w-full h-full object-cover transition-transform transform hover:scale-110"
+                                />
+                            </div>
+                            <p className="text-center">Frontend Development</p>
+                        </div>
+
+                        {/* Image 2 with text */}
+                        <div className="flex flex-col items-center">
+                            <div className="w-1/2  overflow-hidden rounded-md shadow-md mb-4">
+                                <img
+                                    src={picDevops}
+                                    alt="Main Interest"
+                                    className="w-full h-full object-cover transition-transform transform hover:scale-110"
+                                />
+                            </div>
+                            <p className="text-center">DevOps</p>
+                        </div>
+
+                        {/* Image 3 with text */}
+                        <div className="flex flex-col items-center">
+                            <div className="w-30 overflow-hidden rounded-md shadow-md mb-4">
+                                <img
+                                    src={picMobile}
+                                    alt="Main Interest"
+                                    className="w-full h-full object-cover transition-transform transform hover:scale-110"
+                                />
+                            </div>
+                            <p className="text-center">Mobile Development</p>
+                        </div>
+
+                    </div>
                 </div>
-                <p className="text-center">Frontend Development</p>
             </div>
 
-            {/* Image 2 with text */}
-            <div className="flex flex-col items-center">
-                <div className="w-1/2  overflow-hidden rounded-md shadow-md mb-4">
-                    <img
-                        src={picDevops}
-                        alt="Main Interest"
-                        className="w-full h-full object-cover transition-transform transform hover:scale-110"
-                    />
-                </div>
-                <p className="text-center">DevOps</p>
-            </div>
-
-            {/* Image 3 with text */}
-            <div className="flex flex-col items-center">
-                <div className="w-30 overflow-hidden rounded-md shadow-md mb-4">
-                    <img
-                        src={picMobile}
-                        alt="Main Interest"
-                        className="w-full h-full object-cover transition-transform transform hover:scale-110"
-                    />
-                </div>
-                <p className="text-center">Mobile Development</p>
-            </div>
-
-        </div>
-    </div>
-</div>
 
 
 
@@ -80,7 +81,6 @@ function MainInterest() {
 
 
 
-           
 
         </div>
     )
